@@ -1,0 +1,117 @@
+.s-hero{
+    padding-top: 164px;
+    padding-bottom: 103px;
+    background-image: url("../img/bg-hero.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 800px;
+    .container{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .left{
+        width: 100%;
+        max-width: 782px;
+        h1{
+            margin-top: 24px;
+            margin-bottom: 18px;
+        }
+        p{
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 140%;
+            color: #FFFFFF;
+            margin-bottom: 40px;
+        }
+
+        .value{
+            display: flex;
+            strong{
+                background-color: #FFFFFF;
+                padding: 18px 36px;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 22px;
+                color: #000000;
+            }
+            a{
+                display: block;
+                background-color: #3256EA;
+                padding: 18px 36px;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 22px;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+    }
+    .right{
+        position: relative;
+        top: 97px;
+        width: 100%;
+        max-width: 443px;
+        span{
+            display: block;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 20px;
+            margin-bottom: 26px;
+        }
+        button{
+            width: 100%;
+            height: 247px;
+            border: 2px solid #3256EA;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            margin-bottom: 51px;
+            .thumbnail{
+                width: 100%;
+            }
+            .play{
+                position: absolute;
+                bottom: 25px;
+                left: 32px ;
+            }
+        }
+        .pegi{
+            display: flex;
+            align-items: center;
+            p{
+                color: #FFFFFF;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 17px;
+                max-width: 274px;
+                margin-left: 15px;
+            }
+        }
+    }
+}
+
+.s-general-info{
+    width: 100%;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    ul {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        li{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            span{
+                display: block;
+                text-align: center;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                color: #BDC2CB;
+            }
+        }
+    }
+}
