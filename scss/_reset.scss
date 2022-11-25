@@ -1,27 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
     font-family: 'Archivo', sans-serif;
+    list-style: none;
     color: #FFF;
 }
 
-button{
+a {
+    text-decoration: none;
+}
+
+button {
     border: 0;
     background-color: transparent;
     cursor: pointer;
 }
 
-img{
+img {
     max-width: 100%;
     display: block;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
-body{
+body {
     background-color: #000201;
 }

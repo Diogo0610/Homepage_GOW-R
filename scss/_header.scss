@@ -1,36 +1,56 @@
-header{
-    width: 100%;
+header {
     height: 8rem;
+    width: 100%;
     display: flex;
     align-items: center;
-    background-color: #000000;
-    .container{
+    background-color: #000;
+
+    .container {
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
-    .platform{
+
+    .platform {
         display: flex;
         align-items: center;
-        span{
+
+        span {
             font-weight: 600;
-            font-size: 16px;
-            line-height: 17px;
+            font-size: 1.4rem;
+            line-height: 1.5rem;
         }
-        ul{
+
+        ul {
             display: flex;
-            margin-left: 18px;
-            gap: 8px;
-            
-            li{
+            gap: 0.8rem;
+            margin-left: 1.8rem;
+
+            li {
+                padding: 0.4rem 0.8rem;
                 border: 1.5px solid #FFFFFF;
-                padding: 4px 8px;
-                font-size: 14px;
-                line-height: 15px;
-                
+                font-weight: 600;
+                font-size: 1.4rem;
+                line-height: 1.5rem;
             }
         }
-    
     }
 
+    @media (max-width:560px) {
+        height: 7rem;
+
+        .sony {
+            display: none;
+        }
+
+        .logo {
+            max-width: 140px;
+        }
+
+        .platform {
+            span {
+                display: none;
+            }
+        }
+    }
 }
