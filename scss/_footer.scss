@@ -41,7 +41,7 @@
         }
     }
 
-    @media (max-width:1200%) {
+    @media (max-width:1200px) {
         padding: 4rem 0;
         height: auto;
         ul {
@@ -54,7 +54,7 @@
         }
     }
 
-    @media (max-width:560%) {
+    @media (max-width:560px) {
         ul {
             li {
                 width: 50%;
@@ -68,5 +68,5 @@
 
 .imgbg{
     background-color: rgba(0, 0, 0, 0.85);
-    border-radius: 8%;
+    border-radius: 8px;
 }
