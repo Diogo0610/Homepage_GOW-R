@@ -1,5 +1,5 @@
 # Homepage God of War: Ragnarök  
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Diogo0610/dsmeta/blob/main/license) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Diogo0610/Homepage_GOW-R/blob/main/LICENSE) 
 
 # Sobre o projeto
 
